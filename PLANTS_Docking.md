@@ -10,6 +10,7 @@ A. Error-free approach:
             outfile.write(infile.read())
    ```
 B. Using RDkit:
+
 2. Using RDKit assign property to Mol2 and save
    (Issue: RDKit has issue with atom types or aromaticity, so it skips molecule. So, sanitization is avoided)
 
