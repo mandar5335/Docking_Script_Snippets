@@ -14,7 +14,7 @@ B. Using RDkit:
 2. Using RDKit assign property to Mol2 and save
    (Issue: RDKit has issue with atom types or aromaticity, so it skips molecule. So, sanitization is avoided)
 
-  Step 1:
+  __Step 1:__
   
    ```
 mols = []
@@ -33,7 +33,7 @@ for idx, mol in enumerate(mol_list, start=1):
 print(f"Loaded {len(mols)} molecules")
 ```
 
-  Step 2: 
+  __Step 2:__
 
   ```
 f = open('molecules_missed_in_combined_SDF.dat', 'w')
